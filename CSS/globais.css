@@ -1,0 +1,27 @@
+@import url(' https://fonts.google.com/specimen/Barlow+Semi+Condensed');
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+
+h2 {
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-weight: 500;    
+}
+
+h4{
+    opacity: 50%;
+    padding-left: 60px; 
+    position: absolute;
+    top:20%;
+}
+
+p{
+    opacity: 70%;
+}

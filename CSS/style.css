@@ -1,0 +1,121 @@
+body {
+    background-color: hsl(217, 50%, 94%);
+}
+
+.card1, .card2, .card3, .card4, .card5 {
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+
+}
+
+.card1 {
+    background-color: hsl(263, 55%, 52%);
+    grid-area: card1;
+    width: 600px;
+    height: 240px;
+    position: relative;
+}
+
+.card1 h2{
+    position: relative;
+    z-index: 5;
+}
+
+ img{ 
+    border-radius: 100%;
+    width: 60%;
+    border: solid 2px thistle;
+}
+
+.card4 img{
+    border:solid 2px rgb(165, 98, 165);
+}
+
+
+.card1 p {
+    width: 560px;
+}
+
+.card2 {
+    background-color: hsl(217, 19%, 35%);
+    grid-area: card2;
+    width: 230px;
+    height: 240px;
+}
+
+.card2 p {
+    width: 210px;
+}
+
+.card3 {
+    background-color: white;
+    grid-area: card3;
+    width: 230px;
+    height: 220px;
+    color: hsl(217, 19%, 35%);
+}
+
+.card3 p {
+    width: 210px;
+}
+
+
+.card4 {
+    background-color: hsl(219, 29%, 14%);
+    grid-area: card4;
+    width: 600px;
+    height: 220px;
+}
+
+.card4 p {
+    width: 580px;
+}
+
+.card5 {
+    background-color: honeydew;
+    grid-area: card5;
+    width: 220px;
+    height: 520px;
+    color: hsl(217, 19%, 35%);
+}
+
+.card5 p {
+    width: 200px;
+}
+
+.card5 h4{
+    position: absolute;
+    top:10%;
+}
+
+.atribuicao {
+    margin: 10px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-areas: "card1 card1 card2 card5"
+        "card3 card4 card4 card5";
+    margin: 70px;
+    grid-gap: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+ .quote{
+    position: absolute;
+    width: 30%;
+    opacity: 70%;
+    right: 0px;
+    top: 0px;
+}
+
+.quote img{
+    border: transparent;
+}

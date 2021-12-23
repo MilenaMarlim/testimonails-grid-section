@@ -17,9 +17,10 @@ h3 {
 
 h4{
     opacity: 50%;
-    padding-left: 60px; 
-    position: absolute;
-    top:20%;
+    padding-top: 5px;
+    /* padding-left: 60px;  */
+    /* position: absolute;
+    top:20%; */
 }
 
 p{
@@ -30,3 +31,9 @@ p{
 .card5 p{
     margin: 10px;
 }
+
+.card1 .logo .nome , .card2 .logo .nome , .card3 .logo .nome, .card4 .logo .nome , .card5 .logo .nome{
+    display: flex;
+    flex-direction: column;   
+}
+

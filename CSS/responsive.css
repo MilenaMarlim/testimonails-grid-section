@@ -1,43 +1,33 @@
-@media(max-width: 425px){
-    .cards{
+@media(max-width: 425px) {
+    .cards {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .area-geral {
         margin: 0;
-        padding: 0;
-        width: 100%;
     }
 
-    .area-geral{
-        width: 100%;
+    .quote {
+        width: 50%;
     }
-
-    .card1 p , .card2 p , .card3 p , .card4 p , .card5 p{
-        width: 100%;
-    }
-
-    .card1 h4, .card5 h4{
-        top: 15%;
-    }
-
-    .card2 h4 , .card3 h4{
-        top: 25%
-    }
-
-    .card4 h4{
-        top: 17% ;
-    }
-   .quote{
-       width: 50%;
-   }
 
 }
-@media(max-width: 700px){
-    .area-geral{
+
+@media(max-width: 850px) {
+    .area-geral {
         width: 100%;
-        
+        margin: 0;
     }
-    .cards{
+
+    .cards {
         display: flex;
         flex-wrap: wrap;
+        margin: 20px;
+        width: 100%;
+        justify-content: center;
     }
+
 }

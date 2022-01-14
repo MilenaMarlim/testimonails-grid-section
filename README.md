@@ -16,7 +16,7 @@ https://milenamarlim.github.io/testimonials-grid-section/
 
 * Grid
 * Flex 
-* Responsividade
+* Design Responsivo: Media Queries
 
 ## 🚀 Linguagens utilizadas:
 

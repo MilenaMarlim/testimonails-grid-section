@@ -3,15 +3,20 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 20px;
+        justify-content: center;
+        margin: 0;
     }
 
     .area-geral {
-        margin: 0;
+        margin-left: 0;
     }
 
     .quote {
         width: 50%;
+    }
+
+    .card5{
+       max-width: fit-content;
     }
 
 }
@@ -28,6 +33,9 @@
         margin: 20px;
         width: 100%;
         justify-content: center;
+    }
+    .card5{
+        width: 100%;
     }
 
 }

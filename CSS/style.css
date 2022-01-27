@@ -60,13 +60,8 @@ body {
     background-color: white;
     grid-area: card5;
     color: hsl(217, 19%, 35%);
-    width: 55%;
+    width: 65%;
 }
-
-/* .card5 h4{
-    position: absolute;
-    top:10%;
-} */
 
 .atribuicao {
     margin: 10px;
@@ -87,7 +82,7 @@ body {
         "card3 card4 card4 card5";
     grid-template-rows: repeat(2, 1fr) ; 
     grid-gap: 20px;
-    margin-bottom: 2%;
+    margin-bottom: 2%; 
 }
 
 .logo{
